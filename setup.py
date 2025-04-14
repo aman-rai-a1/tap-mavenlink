@@ -10,7 +10,9 @@ setup(name='tap-mavenlink',
       classifiers=['Programming Language :: Python :: 3 :: Only'],
       py_modules=['tap_mavenlink'],
       install_requires=[
-          'tap-framework==0.1.1',
+          'tap-framework==0.0.4',
+          'requests==2.31.0',
+          'urllib3==1.26.18',
       ],
       entry_points='''
           [console_scripts]
